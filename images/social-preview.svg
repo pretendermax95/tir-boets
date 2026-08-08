@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Тир Боец — тренировки и безопасная стрельба">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#151b28"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8b3f"/>
+      <stop offset="100%" stop-color="#ff4d2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="36" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#111722" stroke="#2a3240" stroke-width="2"/>
+  <circle cx="1000" cy="180" r="180" fill="#ff6b35" opacity="0.16"/>
+  <circle cx="240" cy="470" r="220" fill="#f4d35e" opacity="0.08"/>
+  <rect x="96" y="122" width="288" height="188" rx="24" fill="#1a2230"/>
+  <path d="M144 250c28-70 92-112 154-112 57 0 104 28 129 76" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M156 252h224" stroke="#f4d35e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M196 226l44-72 44 72" fill="none" stroke="#ff6b35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="240" cy="250" r="18" fill="#ff6b35"/>
+  <text x="118" y="372" fill="#f7f7f2" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800">Тир «Боец»</text>
+  <text x="118" y="430" fill="#ff9e66" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Безопасная стрельба и тренировки</text>
+  <text x="118" y="480" fill="#9fa7b7" font-family="Inter, Arial, sans-serif" font-size="24">Современный тир для подготовки, отдыха и соревнований</text>
+  <rect x="118" y="520" width="200" height="10" rx="5" fill="url(#accent)"/>
+</svg>
