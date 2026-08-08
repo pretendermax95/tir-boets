@@ -8,20 +8,53 @@
   <meta name="author" content="Тир «Боец»" />
   <meta name="theme-color" content="#090b10" />
   <meta name="robots" content="index,follow" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta property="og:locale" content="ru_RU" />
   <meta property="og:title" content="Тир «Боец» — премиальный тир для стрельбы и тренировок" />
   <meta property="og:description" content="Профессиональная пневматика, безопасные программы, индивидуальные тренировки и атмосферные мероприятия для гостей любого уровня." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://pretendermax95.github.io/tir-boets/" />
-  <meta property="og:image" content="https://pretendermax95.github.io/tir-boets/images/social-preview.svg" />
+  <meta property="og:image" content="https://pretendermax95.github.io/tir-boets/images/brand-card.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Тир «Боец» — премиальный тир для стрельбы и тренировок" />
   <meta property="og:site_name" content="Тир «Боец»" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Тир «Боец» — премиальный тир для стрельбы и тренировок" />
   <meta name="twitter:description" content="Профессиональная пневматика, безопасные программы, индивидуальные тренировки и атмосферные мероприятия для гостей любого уровня." />
-  <meta name="twitter:image" content="https://pretendermax95.github.io/tir-boets/images/social-preview.svg" />
+  <meta name="twitter:image" content="https://pretendermax95.github.io/tir-boets/images/brand-card.svg" />
+  <link rel="canonical" href="https://pretendermax95.github.io/tir-boets/" />
   <title>Тир «Боец» — премиальный тир для стрельбы и тренировок</title>
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   <link rel="apple-touch-icon" href="images/favicon.svg" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "Тир «Боец»",
+      "url": "https://pretendermax95.github.io/tir-boets/",
+      "description": "Современный тир для безопасной стрельбы, тренировок, семейных визитов и корпоративных мероприятий.",
+      "telephone": "+7-900-123-45-67",
+      "email": "info@tir-boec.ru",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Победы, 12",
+        "addressLocality": "Москва",
+        "addressCountry": "RU"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "sameAs": [
+        "https://github.com/pretendermax95/tir-boets"
+      ]
+    }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -30,7 +63,9 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#home" class="brand">Тир «Боец»</a>
+      <a href="#home" class="brand" aria-label="Тир Боец — перейти к началу страницы">
+        <img src="images/logo.svg" alt="Логотип Тир Боец" class="brand-logo" />
+      </a>
       <nav class="site-nav" aria-label="Главное меню">
         <a href="#about">О тире</a>
         <a href="#services">Услуги</a>
